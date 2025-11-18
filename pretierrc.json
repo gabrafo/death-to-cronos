@@ -4,7 +4,6 @@
   "htmlWhitespaceSensitivity": "css",
   "insertPragma": true,
   "jsxSingleQuote": true,
-  "jsxBracketSameLine": false,
   "printWidth": 80,
   "proseWrap": "always",
   "quoteProps": "as-needed",

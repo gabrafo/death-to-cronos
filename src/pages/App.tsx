@@ -1,10 +1,13 @@
 import "../styles/theme.css"
 import "../styles/global.css"
+
 import style from "./App.module.css"
+
+import melinoe from "../assets/melinoe.webp"
 
 import { Heading } from "../components/Heading"
 import { GoddessImage } from "../components/GoddessImage"
-import melinoe from "../assets/melinoe.webp"
+import { Salutation } from "../components/Salutation"
 
 function App() {
   return (
@@ -13,7 +16,7 @@ function App() {
 
       <div className={style['goddess-container']}>
         <GoddessImage src={melinoe} width={5} height={5} alt="Melinoe, goddess of ghosts" />
-        <p>Melinoe says: death to Chronos!</p>
+        <Salutation>Melinoe says: death to Chronos!{/* The text is passing down as children of Salutation*/}</Salutation>
       </div>
     </>
   );

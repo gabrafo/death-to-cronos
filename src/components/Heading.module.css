@@ -2,6 +2,9 @@
 Uses hashes to identify uniquely different classes/IDs
 */
 
-.god {
-    color: red; 
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
 }

@@ -18,13 +18,3 @@ body {
 }
 
 /* --- */
-
-.container {
-    max-width: 98rem; /* 980px */
-    margin: 0 auto;
-}
- 
-.content {
-    margin: 3.2rem;
-    text-align: center;
-}

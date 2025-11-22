@@ -4,6 +4,7 @@ import "../../styles/global.css";
 import { Container } from "../../components/Container";
 import { Logo } from "../../components/Logo";
 import { Menu } from "../../components/Menu";
+import { CountDown } from "../../components/CountDown";
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
       <Container>
         <Menu />
       </Container>
-      <Container>Form</Container>
+      <Container>
+        <CountDown />
+      </Container>
       <Container>Footer</Container>
     </>
   );

@@ -1,0 +1,7 @@
+.container {
+  font-size: clamp(8rem, 25vw, 16rem); /* Responsive font, adapts itself to 25vw, with 8rem minimum size and 16rem maximum size */
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.3;
+  color: var(--text);
+}

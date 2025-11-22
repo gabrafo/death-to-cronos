@@ -1,14 +1,14 @@
 :root {
-    --primary-chronos: #ffd500;
-    --secondary-chronos: #ffa500;
-    --background: #0a0f1a;
+  --primary-chronos: #ffd500;
+  --secondary-chronos: #ffa500;
+  --background: #0a0f1a;
 
-    --text: #e6e9f0;
-    --text-muted: #aab3cc;
-    --text-disabled: #aab3cc;
+  --text: #e6e9f0;
+  --text-muted: #aab3cc;
+  --text-disabled: #aab3cc;
 
-    --success: #22c55e;
-    --error: #991b1b;
-    --info: #3b82f6;
-    --disabled: #555f7d;
+  --success: #22c55e;
+  --error: #991b1b;
+  --info: #3b82f6;
+  --disabled: #555f7d;
 }

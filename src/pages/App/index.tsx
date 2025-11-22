@@ -22,7 +22,7 @@ function App() {
       <Container>
         <form className="form" action="">
           <div className="formRow">
-            <DefaultInput id="task" labelText="Task" type="text" />
+            <DefaultInput id="task" labelText="Task" type="text" placeholder="Insert your task" />
           </div>
 
           <div className="formRow">

@@ -8,6 +8,7 @@ import { CountDown } from "../../components/CountDown";
 import { DefaultInput } from "../../components/DefaultInput";
 import { Cycles } from "../../components/Cycles";
 import { DefaultButton } from "../../components/DefaultButton";
+import { Footer } from "../../components/Footer";
 
 function App() {
   return (
@@ -39,6 +40,9 @@ function App() {
             <DefaultButton />
           </div>
         </form>      
+      </Container>
+      <Container>
+        <Footer />
       </Container>
     </>
   );

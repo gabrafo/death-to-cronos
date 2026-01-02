@@ -8,13 +8,13 @@
     outline: none;
 
     border: 0.2rem solid transparent; /* Border exists, but is transparent for improved UX (input will stay still when you focus it) */
-    border-bottom: 0.2rem solid var(--primary-chronos);
+    border-bottom: 0.2rem solid var(--primary);
     transition: all 0.1s ease-in-out;
 }
 
 .input:focus {
     border-radius: 0.8rem;
-    border: 0.2rem solid var(--primary-chronos);
+    border: 0.2rem solid var(--primary);
 }
 
 .input::placeholder {

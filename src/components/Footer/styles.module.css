@@ -2,16 +2,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column
+  flex-direction: column;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: var(--text-muted);
 }
 
 .footer p {
   color: var(--text-muted);
+  padding: 0.6rem 0 0;
 }
 
 .footer a {
-  font-size: 1.2rem;
-  text-decoration: none;
   color: var(--text-muted);
 }
 

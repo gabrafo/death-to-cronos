@@ -11,7 +11,7 @@
   font-size: 4.2rem;
   font-weight: bold;
   text-decoration: none;
-  color: var(--primary-chronos);
+  color: var(--primary);
 }
 
 .logoLink:hover {
@@ -22,4 +22,10 @@
 .logoLink svg { /* Acessing HourglassIcon */
   width: 6rem;
   height: 6rem;
+}
+
+.logoImage {
+  width: 6rem;
+  height: 6rem;
+  object-fit: contain;
 }

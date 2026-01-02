@@ -10,10 +10,13 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  background: var(--primary-chronos);
+  background: var(--primary);
   color: var(--background);
   padding: 1.2rem;
   border-radius: 0.8rem;
+  border: none;
+  cursor: pointer;
+  font: inherit;
 }
 
 .menuLink:hover {
@@ -24,4 +27,10 @@
 .menuLink svg { /* Acessing HourglassIcon */
   width: 2.4rem;
   height: 2.4rem;
+}
+
+.menuIcon {
+  width: 2.4rem;
+  height: 2.4rem;
+  object-fit: contain;
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+
 /* Reseting CSS */
 
 * {
@@ -26,6 +28,12 @@ body {
   font-size: 1.6rem; /* 16px */
   background: var(--background);
   color: var(--text);
+}
+
+body h1 {
+  font-family:
+    "Caesar Dressing";
+  font-size: 4.4rem; /* 44px */
 }
 
 /* --- */

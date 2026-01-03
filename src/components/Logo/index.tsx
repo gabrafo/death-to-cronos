@@ -22,7 +22,7 @@ export function Logo() {
     <div className={styles.logo}>
       <a href="#" className={styles.logoLink}>
         {currentTheme.icon}
-        <span>{currentTheme.text}</span>
+        <h1>{currentTheme.text}</h1>
       </a>
     </div>
   );
